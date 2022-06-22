@@ -1,0 +1,78 @@
+footer{
+    width: 100%;
+    height: auto;
+    background: #FCAF17;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.firstSon .DivFirstSon{
+   margin: 30px;
+}
+
+.links{
+    text-decoration: none;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #003461;
+}
+
+.secondySon h4{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #003461;
+    padding-bottom: 10px;
+}
+
+.secondySon .inputs input[type=email]{
+    width: 350px;
+    border-radius: 7px 0px 0px 7px;
+    padding: 6px;
+}
+
+.secondySon .inputs input[type=submit]{
+    width: 100px;
+    border-radius: 0px 7px 7px 0px;
+    padding: 3px;
+    background: #0083CA;
+    border: 1px solid #E6E6E6;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFAFA;
+} 
+
+.RodapeFooter ul{
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.RodapeFooter ul li .links{
+    font-family: 'Courier New';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E6E6E6;
+}
+
+.RodapeFooter ul li h6 span{
+   
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    color: #E6E6E6;
+}
+

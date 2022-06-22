@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Box from '../../components/Box';
 import FigCaption from '../../components/FigCapion';
 import Card from '../../components/Card';
+import Footer from '../../components/Footer';
 
 
 //img
@@ -50,8 +51,8 @@ export default function Home() {
         <>
         <Card />
         </>
-        
       </Box>
+      <Footer/>
     </div>
   )
 }
