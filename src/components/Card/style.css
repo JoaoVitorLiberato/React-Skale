@@ -1,0 +1,75 @@
+div h3{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.most{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card{
+    width: 300px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+}
+.card h5{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #1F1F1F;
+}
+
+.card span{
+    text-align: center;
+    width: 290px;
+    font-family: 'Courier New';
+    font-size: 16px;
+    line-height: 18px;
+    color: #3f3f3fec;
+    margin-top: 30px;
+}
+
+.card .cardFooter{
+    display: flex;
+    justify-content: space-between;  
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card .cardFooter span{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1F1F1F;
+    
+}
+
+.card div a{
+    text-decoration: none;
+    font-family: 'Courier New';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    color: #F26522;
+}

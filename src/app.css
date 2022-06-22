@@ -1,0 +1,27 @@
+
+.gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray img{
+    width: 1200px;
+    height: 230px;
+    margin: 30px;
+}
+
+.abobora .figures{
+padding: 30px;  
+align-items: center;
+
+}
+
+.abobora .figures .fileira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+
+}

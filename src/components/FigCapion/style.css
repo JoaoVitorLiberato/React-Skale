@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.figCaption{
+    display: flex;
+    flex-direction: column;
+    background: #00AFAD;
+    width: 259px;
+    border-radius: 10px;
+    
+}
+
+.figCaption img{
+    width: 260px;
+    height: 250px;
+}
+
+.figCaption h5{
+    height: 2rem;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAFAFA;
+}
