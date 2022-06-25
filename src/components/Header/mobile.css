@@ -1,0 +1,81 @@
+@media(max-width:700px){
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .header{
+        height: auto;
+        background: #F26522;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .logo{
+        margin: 15px;
+    }
+    
+    input[type=text]{
+       width: 70%;
+       padding: 0.6rem;
+       border-radius: 1rem ;
+       border: none;
+    }
+    
+    input[type=text]:nth-child(2){
+        background-image: url('../../assets/icon/lupaSheach.png');
+        background-repeat: no-repeat;
+        background-position: 1rem;
+        background-size: auto;
+        cursor: pointer;
+    }
+    
+    input[type=text]::placeholder{
+        text-align: center;
+        font-family: 'Courier New';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: #555454;
+    }
+
+    .navHeader{
+        margin: 0 auto;
+    }
+
+    .menuHeader{
+        list-style: none;
+        margin: 20px;
+        display: flex;
+        justify-content: center ;
+        text-align: center;
+    }
+    
+    .subMenu{
+        width: 100%;
+        height: auto; 
+        align-items: center;
+        margin: 0;
+    
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+   
+    .menu a{
+        /* text-decoration: none;
+        color: #393737;
+        padding: 1px;   */
+        display: none;
+    }
+}

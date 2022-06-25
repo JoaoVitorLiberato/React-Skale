@@ -24,8 +24,7 @@ input[type=text]:nth-child(2){
     background-repeat: no-repeat;
     background-position: 1rem;
     background-size: auto;
-    
-
+    cursor: pointer;
 }
 
 input[type=text]::placeholder{

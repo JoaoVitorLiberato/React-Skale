@@ -1,4 +1,5 @@
 import './style.css'
+import './mobile.css'
 
 import Chapeu from '../../assets/images/cards/chapeu.png'
 import Bike from '../../assets/images/cards/bike.png'

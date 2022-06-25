@@ -1,4 +1,5 @@
 import './style.css'
+import './mobile.css'
 
 interface ImgProps {
     redirect: string;

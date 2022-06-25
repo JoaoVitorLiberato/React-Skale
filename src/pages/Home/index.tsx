@@ -1,4 +1,5 @@
 import './style.css';
+import './mobile.css'
 
 //components
 import Header from '../../components/Header';

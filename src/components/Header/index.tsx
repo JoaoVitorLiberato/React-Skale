@@ -1,4 +1,5 @@
 import './style.css'
+import './mobile.css'
 
 import Logo from '../../assets/images/Logo.png'
 import IMaps from '../../assets/icon/maps.png'
